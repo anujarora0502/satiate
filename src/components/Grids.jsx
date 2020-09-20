@@ -10,7 +10,7 @@ import PersonIcon from '@material-ui/icons/Person';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: "5.5%",
+    marginTop: "0%",
     marginLeft:"2%",
     position: "absolute",
     zIndex:-1,
@@ -40,7 +40,7 @@ export default function Grids() {
           <div className="container">
            <div className="content">
            <div className="content-overlay"></div>
-             <img alt = "preschool dinner"className="content-image" src="https://www.laparent.com/wp-content/uploads/2018/09/Children-sitting-on-floor-and-reading-tale-book-in-preschool-libraryKindergarten-school-education-concept.-859996890_3869x2580-copy.jpeg" />
+             <img alt = "preschool dinner"className="content-image" src={require("../images/preschool.jpeg")} />
               <div className="content-details fadeIn-bottom">
                     <ButtonCustom>Book Now</ButtonCustom>
                     <ButtonCustom transparent>Learn More</ButtonCustom>
@@ -65,7 +65,7 @@ export default function Grids() {
           <div className="container">
            <div className="content">
            <div className="content-overlay"></div>
-             <img alt = "grandparents day"className="content-image" src="https://lh3.googleusercontent.com/proxy/91dZQzbGUxr88ZT7ZCVDjPatFwNr538crJ06mMgthnxLVgpDAYYP31Ske6uoU_-7L5aPCYnQoSYDbNBpbDOEICqdAKZ-2uOV45QsxtCL-gct266UexNPHgu5CitOW7hAuTk" />
+             <img alt = "grandparents day"className="content-image" src={require("../images/grandparents.jpg")} />
               <div className="content-details fadeIn-bottom">
                     <ButtonCustom>Book Now</ButtonCustom>
                     <ButtonCustom transparent>Learn More</ButtonCustom>
